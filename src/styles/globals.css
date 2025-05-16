@@ -23,4 +23,14 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+.container {
+  @apply w-full max-w-sm mx-auto;
+}
+.navbar {
+  @apply flex place-content-between;
+}
+.navbar__button {
+  @apply relative;
 }
